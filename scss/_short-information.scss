@@ -1,0 +1,11 @@
+.short-information {
+    font-size: 13px;
+  
+    &_color_green {
+        color: $short-information-green;
+    }
+
+    &_color_red {
+        color: $short-information-red;
+    }
+}

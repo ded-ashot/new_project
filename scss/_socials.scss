@@ -1,0 +1,12 @@
+.socials {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+
+    &__link {
+
+        &_has-margin {
+            margin-left: 20px;
+        }
+    }
+}

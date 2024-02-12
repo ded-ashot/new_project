@@ -1,0 +1,47 @@
+.button-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px $button-back-color-active solid;
+    transition: all .3s;
+
+    &:hover {
+        background-color: $button-back-color-hover;
+        border: 2px $button-back-color-hover solid;
+    }
+
+    &:active {
+        background-color: $button-back-color-focus;
+        border: 2px $button-back-color-focus solid;
+    }
+
+    &_rounded {
+        border-radius: 20px;
+    }
+
+    &_size_s {
+        min-width: 144px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    &_size_m {
+        min-width: 166px;
+        height: 44px;
+        font-size: 15px;
+    }
+
+    &_size_l {
+        min-width: 179px;
+        height: 50px;
+        font-size: 22px;
+    }
+
+    &_active {
+        background-color: $button-back-color-active;
+        color: $button-text-color-active;
+    }
+}
