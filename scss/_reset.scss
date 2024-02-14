@@ -7,7 +7,7 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -15,6 +15,14 @@ html {
 .inner {
     width: 100%;
     display: flex;
+
+    &_rewers {
+        flex-direction: row-reverse;
+    }
+}
+
+.hidden {
+    display: none;
 }
 
 *,

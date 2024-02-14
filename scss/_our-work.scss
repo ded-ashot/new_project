@@ -1,0 +1,25 @@
+.our-work {
+    padding-bottom: 84px;
+
+    &__block {
+        widows: 50%;
+
+        &_has-padding {
+            padding-left: 63px;
+            padding-top: 62px;
+        }
+    }
+
+    &__question {
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: .48px;
+        font-weight: 400;
+        padding-bottom: 38px;
+    }
+
+    &__button {
+        text-align: end;
+        padding-top: 32px;
+    }
+}

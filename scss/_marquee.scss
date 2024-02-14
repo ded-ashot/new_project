@@ -1,0 +1,16 @@
+.marquee {
+    padding: 40px 0;
+
+    &__image {
+        width: (100vw / 10);
+        max-width: unset;
+    }
+
+    &__infinite {
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+
+
+}

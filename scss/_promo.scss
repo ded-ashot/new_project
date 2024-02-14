@@ -1,14 +1,23 @@
 .promo {
-
+    margin-top: 90px;
 
     &__block {
-        padding-top: 50px;
         width: 50%;
         position: relative;
 
         &_has-padding {
-            padding-top: 180px;
+            padding-top: 130px;
+            padding-bottom: 310px;
         }
+
+    }
+
+    &__inner {
+        width: 410px;
+        height: 410px;
+        position: absolute;
+        top: 100px;
+        left: 170px;
     }
 
     &__title {
@@ -18,12 +27,44 @@
         padding-bottom: 20px;
     }
 
-    &__image {
+    &__autor {
+        padding: 5px 15px;
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        background-color: white;
+        border-radius: 30px;
+        align-items: center;
+        z-index: 2;
+        opacity: .85;
 
-        &_higher {
-            position: absolute;
-            top: 100px;
-            left: 170px;
+        &_position_upper {
+            top: 15px;
+            left: 0px;
+            transform: translate(-50%);
+        }
+
+        &_position_lower {
+            bottom: 22px;
+            left: 0px;
+            transform: translate(-50%);
+        }
+
+        &-name {
+            font-size: 11px;
+            letter-spacing: .5px;
+
+            &_size_m {
+                font-size: 16px;
+            }
+        }
+
+        &-specialty {
+            font-size: 9px;
+
+            &_size_m {
+                font-size: 11px;
+            }
         }
     }
 
