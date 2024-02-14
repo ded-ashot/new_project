@@ -19,6 +19,10 @@ html {
     &_rewers {
         flex-direction: row-reverse;
     }
+
+    &_has-spacebtw {
+        justify-content: space-between;
+    }
 }
 
 .hidden {
@@ -72,6 +76,13 @@ button,
 textarea,
 select {
     font: inherit;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 a {

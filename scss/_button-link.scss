@@ -40,6 +40,12 @@
         font-size: 22px;
     }
 
+    &_size_small {
+        min-width: 79px;
+        height: 40px;
+        font-size: 14px;
+    }
+
     &_active {
         background-color: $button-back-color-active;
         color: $button-text-color-active;

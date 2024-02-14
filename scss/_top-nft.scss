@@ -1,0 +1,57 @@
+.top-nft {
+    padding-top: 104px;
+
+    &__wrapper {
+        padding-top: 16px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 38px;
+        justify-content: center;
+    }
+
+    &__item {
+        &-text {
+            display: flex;
+            gap: 10px;
+        }
+
+        &-inner {
+            display: flex;
+            padding: 30px 20px;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    &__title {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &__count {
+        font-size: 17px;
+    }
+
+    &__tools {
+        display: flex;
+        gap: 8px;
+
+        &-eye {
+            width: 38px;
+            height: 38px;
+            background-color: rgba(168, 193, 216, 0.2);
+        }
+
+        &-lock {
+            width: 38px;
+            height: 38px;
+            background-color: #FF7F96;
+            border-radius: 50%;
+        }
+    }
+
+    &__button {
+        text-align: center;
+        margin-top: 64px;
+    }
+}

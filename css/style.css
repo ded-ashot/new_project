@@ -24,6 +24,11 @@ html {
       -ms-flex-direction: row-reverse;
           flex-direction: row-reverse;
 }
+.inner_has-spacebtw {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
 .hidden {
   display: none;
@@ -77,6 +82,13 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
 }
 
 a {
@@ -170,6 +182,11 @@ a {
   min-width: 179px;
   height: 50px;
   font-size: 22px;
+}
+.button-link_size_small {
+  min-width: 79px;
+  height: 40px;
+  font-size: 14px;
 }
 .button-link_active {
   background-color: #2F2F2F;
@@ -293,6 +310,12 @@ a {
   text-align: center;
   font-weight: 400;
 }
+.main-title_align_start {
+  text-align: start;
+}
+.main-title_has-padding {
+  padding-left: 64px;
+}
 
 .main-subtitle {
   font-size: 17px;
@@ -345,6 +368,9 @@ a {
   padding-top: 32px;
 }
 
+.methods {
+  padding-bottom: 204px;
+}
 .methods-image {
   max-width: 552px;
   max-height: 596px;
@@ -377,4 +403,178 @@ a {
 }
 .methods__count_color_yellow {
   background-color: #EAD71B;
+}
+
+.join-us {
+  width: 100%;
+  height: 456px;
+  background-color: #82CBAC;
+  position: relative;
+  z-index: -2;
+}
+.join-us_image {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  max-height: 520px;
+  z-index: -1;
+}
+.join-us__inner {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+.join-us_description {
+  font-size: 20px;
+  line-height: 26px;
+  padding-top: 10px;
+}
+
+.collections {
+  padding-top: 101px;
+}
+.collections__block {
+  padding-top: 70px;
+}
+.collections__title {
+  padding-left: 50px;
+  padding-top: 29px;
+  padding-bottom: 37px;
+}
+.collections__button {
+  text-align: center;
+  padding-top: 64px;
+}
+
+.top-nft {
+  padding-top: 104px;
+}
+.top-nft__wrapper {
+  padding-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 40px 38px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.top-nft__item-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.top-nft__item-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.top-nft__title {
+  font-size: 16px;
+  font-weight: 400;
+}
+.top-nft__count {
+  font-size: 17px;
+}
+.top-nft__tools {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+}
+.top-nft__tools-eye {
+  width: 38px;
+  height: 38px;
+  background-color: rgba(168, 193, 216, 0.2);
+}
+.top-nft__tools-lock {
+  width: 38px;
+  height: 38px;
+  background-color: #FF7F96;
+  border-radius: 50%;
+}
+.top-nft__button {
+  text-align: center;
+  margin-top: 64px;
+}
+
+.faq {
+  padding-top: 55px;
+  padding-bottom: 103px;
+}
+.faq__accordion {
+  padding-top: 25px;
+}
+.faq__accordion-title {
+  padding: 29px 90px;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.faq__accordion-text {
+  padding: 5px 90px;
+  font-size: 18px;
+}
+
+.footer {
+  padding-top: 96px;
+  padding-bottom: 47px;
+}
+.footer__inner {
+  max-width: 1072px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+.footer__description {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 45px;
+  padding-bottom: 19px;
+}
+.footer__copyright {
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 118px;
+}
+.footer__links-title {
+  font-size: 20px;
+  padding-bottom: 17px;
+}
+.footer__list-link {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.footer__form {
+  max-width: 460px;
+  padding-right: 28px;
+}
+.footer__form-input {
+  margin-top: 16px;
+  width: 327px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  padding: 12px 32px;
+  color: rgba(47, 47, 47, 0.36);
+  background-color: #F6F6F6;
 }
