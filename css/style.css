@@ -350,7 +350,7 @@ a {
   padding-bottom: 84px;
 }
 .our-work__block {
-  widows: 50%;
+  width: 50%;
 }
 .our-work__block_has-padding {
   padding-left: 63px;
