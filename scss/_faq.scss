@@ -1,0 +1,48 @@
+@import "_mixins";
+
+.faq {
+    padding-top: 55px;
+    padding-bottom: 103px;
+
+
+    &__accordion {
+        padding-top: 25px;
+
+
+        &-title {
+            padding: 29px 90px;
+            font-size: 22px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        &-text {
+            padding: 5px 90px;
+            font-size: 18px;
+        }
+
+    }
+
+    &__lines {
+        padding-right: 27px;
+        position: relative;
+        cursor: pointer;
+        width: 22px;
+        height: 17px;
+        display: block
+    }
+
+    &__line1 {
+        @include accordion_line;
+        transform: rotate(45deg);
+        top: 50%;
+    }
+
+    &__line2 {
+        @include accordion_line;
+        transform: rotate(-45deg);
+        top: 50%;
+        right: 5px;
+    }
+}
