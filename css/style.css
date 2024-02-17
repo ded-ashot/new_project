@@ -486,6 +486,21 @@ a {
   height: 38px;
   background-color: #FF7F96;
   border-radius: 50%;
+  position: relative;
+}
+.top-nft__tools-lock > svg {
+  width: 22px;
+  height: 30px;
+  fill: white;
+}
+.top-nft__tools-lock .bracket {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.top-nft__tools-lock:hover .bracket {
+  -webkit-transform: translate(0, -120px);
+      -ms-transform: translate(0, -120px);
+          transform: translate(0, -120px);
 }
 .top-nft__button {
   text-align: center;

@@ -36,6 +36,7 @@
         display: flex;
         gap: 8px;
 
+
         &-eye {
             width: 38px;
             height: 38px;
@@ -47,6 +48,21 @@
             height: 38px;
             background-color: #FF7F96;
             border-radius: 50%;
+            position: relative;
+
+            &>svg {
+                width: 22px;
+                height: 30px;
+                fill: white;
+            }
+
+            .bracket {
+                transition: all .3s;
+            }
+
+            &:hover .bracket {
+                transform: translate(0, -120px);
+            }
         }
     }
 
