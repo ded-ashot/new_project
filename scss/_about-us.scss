@@ -17,4 +17,38 @@
             padding-top: 124px;
         }
     }
+
+    &__item {
+        display: none;
+        opacity: 0;
+        width: 100%;
+        animation: tabs_animate .5s ease-in;
+
+        &_active {
+            display: flex;
+            opacity: 1;
+        }
+    }
+
+    &__images {
+        width: 50%;
+        padding-top: 64px;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__image {
+        max-width: 552px;
+        max-height: 395px;
+    }
+
+    @keyframes tabs_animate {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
 }

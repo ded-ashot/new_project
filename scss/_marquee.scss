@@ -1,5 +1,8 @@
 .marquee {
     padding: 40px 0;
+    overflow: hidden;
+    display: flex;
+
 
     &__image {
         width: calc(100vw / 10);
@@ -9,8 +12,19 @@
     &__infinite {
         width: 100%;
         display: flex;
-        overflow: hidden;
+        animation: ticker 10s linear infinite;
+        // flex-shrink: 0;
     }
 
+
+    @keyframes ticker {
+        from {
+            transform: translateZ(0);
+        }
+
+        to {
+            transform: translate3d(-100%, 0, 0);
+        }
+    }
 
 }
